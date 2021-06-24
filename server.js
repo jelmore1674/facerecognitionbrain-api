@@ -26,7 +26,7 @@ app.use(cors());
 
 // Home Route
 app.get('/', (req, res) => {
-	res.send(database.users);
+	res.send('it is working');
 });
 
 // SignIn Route
