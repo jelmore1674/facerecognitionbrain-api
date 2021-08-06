@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node server.js",
+        "start": "nodemon server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Justin",
@@ -13,9 +13,13 @@
         "bcrypt-nodejs": "^0.0.3",
         "clarifai": "^2.9.1",
         "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
         "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
         "knex": "^0.95.6",
+        "morgan": "^1.10.0",
         "nodemon": "^2.0.7",
-        "pg": "^8.6.0"
+        "pg": "^8.6.0",
+        "redis": "^3.1.2"
     }
 }
