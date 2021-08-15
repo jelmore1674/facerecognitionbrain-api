@@ -23,6 +23,8 @@ services:
             POSTGRES_DB: smart-brain-docker
             POSTGRES_HOST: postgres
         build: ./postgres
+        volumes:
+            - ./pgdata:/var/lib/postgresql/data
         ports:
             - '5431:5432'
 
